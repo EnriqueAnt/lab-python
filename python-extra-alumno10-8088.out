@@ -1,0 +1,103 @@
+Ejecutando notebook con 10^7 elementos...
+[TerminalIPythonApp] WARNING | Unrecognized alias: 'value', it will have no effect.
+
+========================================
+EJECUCIÓN CON N = 1,000,000
+========================================
+
+Resultados para N = 1,000,000
+Versión original: π ≈ 3.14203600 | Tiempo: 3.9507s
+Versión optimizada: π ≈ 3.14024000 | Tiempo: 10.3755s
+Factor de aceleración: 0.38X
+
+Medición precisa con %timeit:
+Versión original:
+4 s ± 10.7 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+The slowest run took 5.02 times longer than the fastest. This could mean that an intermediate result is being cached.
+26.6 ms ± 18.4 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+========================================
+EJECUCIÓN CON N = 10,000,000
+========================================
+
+Resultados para N = 10,000,000
+Versión original: π ≈ 3.14080240 | Tiempo: 39.9598s
+Versión optimizada: π ≈ 3.14096960 | Tiempo: 0.0210s
+Factor de aceleración: 1900.70X
+
+Medición precisa con %timeit:
+Versión original:
+39.9 s ± 124 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+15.1 ms ± 300 µs per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+========================================
+EJECUCIÓN CON N = 100,000,000
+========================================
+
+Resultados para N = 100,000,000
+Versión original: π ≈ 3.14167960 | Tiempo: 399.1733s
+Versión optimizada: π ≈ 3.14150440 | Tiempo: 0.1174s
+Factor de aceleración: 3400.78X
+
+Medición precisa con %timeit:
+Versión original:
+6min 38s ± 2.04 s per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+106 ms ± 688 µs per loop (mean ± std. dev. of 3 runs, 1 loop each)
+Ejecutando notebook con 108 elementos...
+[TerminalIPythonApp] WARNING | Unrecognized alias: 'value', it will have no effect.
+
+========================================
+EJECUCIÓN CON N = 1,000,000
+========================================
+
+Resultados para N = 1,000,000
+Versión original: π ≈ 3.14179600 | Tiempo: 3.9053s
+Versión optimizada: π ≈ 3.14276800 | Tiempo: 10.1680s
+Factor de aceleración: 0.38X
+
+Medición precisa con %timeit:
+Versión original:
+3.96 s ± 13.8 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+The slowest run took 9.61 times longer than the fastest. This could mean that an intermediate result is being cached.
+28.5 ms ± 22.2 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+========================================
+EJECUCIÓN CON N = 10,000,000
+========================================
+
+Resultados para N = 10,000,000
+Versión original: π ≈ 3.14168080 | Tiempo: 39.3852s
+Versión optimizada: π ≈ 3.14165240 | Tiempo: 0.0188s
+Factor de aceleración: 2094.87X
+
+Medición precisa con %timeit:
+Versión original:
+38 s ± 765 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+15.2 ms ± 246 µs per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+========================================
+EJECUCIÓN CON N = 100,000,000
+========================================
+
+Resultados para N = 100,000,000
+Versión original: π ≈ 3.14155936 | Tiempo: 373.1862s
+Versión optimizada: π ≈ 3.14141764 | Tiempo: 0.1120s
+Factor de aceleración: 3332.10X
+
+Medición precisa con %timeit:
+Versión original:
+6min 14s ± 1.08 s per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+Versión optimizada:
+106 ms ± 1.49 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+Finalizado
